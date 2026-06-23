@@ -173,3 +173,45 @@
 [09:58 PM] [aas]: jhguyj
 [SYSTEM] manu has left the chat room.
 [SYSTEM] aas has left the chat room.
+[SYSTEM] manu joined General room!
+[SYSTEM] admin joined General room!
+[11:42 PM] [manu]: hii admin
+[11:42 PM] [admin]: hlo aas
+[11:42 PM] [admin]: 😂
+[SYSTEM] admin has left the chat room.
+[SYSTEM] manu has left the chat room.
+[SYSTEM] aas joined General room!
+[SYSTEM] aas has left the chat room.
+[SYSTEM] manu joined General room!
+[SYSTEM] manu has left the chat room.
+[SYSTEM] manu joined General room!
+[SYSTEM] manu joined General room!
+[SYSTEM] manu has left the chat room.
+[SYSTEM] manu has left the chat room.
+[SYSTEM] manu joined General room!
+[SYSTEM] manu has left the chat room.
+[SYSTEM] manu joined General room!
+[SYSTEM] admin joined General room!
+[12:17 AM] [manu]: hii admin
+[12:17 AM] [admin]: hlo manu
+[12:17 AM] [manu]: kaisi ho
+[12:18 AM] [admin]: thik hu tm btao??
+[12:18 AM] [manu]: main v thik
+[12:18 AM] [manu]: can u share me ur demo file
+[12:18 AM] [admin]: sure
+[12:18 AM] [admin]: hold on
+[SYSTEM] admin has left the chat room.
+[SYSTEM] manu has left the chat room.
+[SYSTEM] manu joined General room!
+[SYSTEM] admin joined General room!
+[12:45 AM] [manu]: hii admin
+[12:45 AM] [admin]: hii manu
+[12:45 AM] [manu]: kaisi ho??
+[12:45 AM] [admin]: main thik hu... tm btao??
+[12:45 AM] [manu]: nain v thik hu
+[12:45 AM] [manu]: may i get ur demo file??
+[12:46 AM] [admin]: sure
+[12:46 AM] [admin]: hold on😀
+[SYSTEM] admin shared file: demo.txt
+[SYSTEM] admin has left the chat room.
+[SYSTEM] manu has left the chat room.

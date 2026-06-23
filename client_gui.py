@@ -20,7 +20,7 @@ class ChatClient:
 
         # 1. Main GUI Window Setup (Ultra Dark Theme)
         self.window = tk.Tk()
-        self.window.title("CodeAlpha Premium Chat")
+        self.window.title("Oasis Infobyte Premium Chat")
         self.window.geometry("850x650")
         self.window.minsize(850, 650)
         self.window.configure(bg="#313338") # Premium black background
@@ -81,6 +81,10 @@ class ChatClient:
             expand=True
         )
 
+        self.chat_area.config(state=tk.NORMAL)
+
+        self.chat_area.insert(tk.END,"👋 Welcome to Oasis Infobyte Premium Chat\n\n")
+
         self.chat_area.config(state=tk.DISABLED)
 
         # Online Users Panel
@@ -139,7 +143,7 @@ class ChatClient:
             text="Send", 
             bg="#5865F2", 
             fg="white", 
-            font=("Arial", 11, "bold"), 
+            font=("Segoe UI", 11, "bold"), 
             relief=tk.FLAT,
             padx=20,
             command=self.send_message
@@ -172,7 +176,7 @@ class ChatClient:
         
         # Emoji Row
         emoji_frame = tk.Frame(self.window, bg="#313338")
-        emoji_frame.pack(pady=(0, 10))
+        emoji_frame.pack(pady=(5, 15))
 
         emojis = ["😀", "😂", "😍", "👍", "🔥", "❤️", "🎉"]
 
@@ -293,7 +297,7 @@ class ChatClient:
             text="Login", 
             bg="#2ECC71", 
             fg="white", 
-            font=("Arial", 12, "bold"),
+            font=("Segoe", 11, "bold"),
             relief=tk.FLAT,
             command=self.submit_nickname,
             pady=5
@@ -461,9 +465,9 @@ class ChatClient:
                 with open(filepath, "rb") as file:
                     data = file.read()
 
-                self.client_socket.send(
-                    f"FILE:{filename}".encode('utf-8')
-                )
+                header = self.cipher.encrypt(f"FILE:{filename}".encode('utf-8'))
+
+                self.client_socket.send(header)
 
                 self.client_socket.send(data)
 
